@@ -56,3 +56,10 @@ ds = cat.nex_gddp_cmip6(
 ds.plot()
 ```
 
+---
+
+## Developers
+
+- *Aashish Panta*, *Kyo Lee*, *Valerio Pascucci*
+
+    University of Utah, NASA JPL
