@@ -4,3 +4,4 @@ matplotlib
 OpenVisus
 intake
 datetime
+intake-nexgddp
