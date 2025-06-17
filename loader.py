@@ -42,7 +42,6 @@ class NexGDDPCatalog(DataSource):
         lat_full = np.linspace(lat_start, lat_end, full_ny, endpoint=False)
         lon_full = np.linspace(lon_start, lon_end, full_nx, endpoint=False)
 
-        # Default full region
         y1, y2 = 0, full_ny
         x1, x2 = 0, full_nx
 
@@ -56,12 +55,9 @@ class NexGDDPCatalog(DataSource):
             x1 = int(np.searchsorted(lon_full, lon_min, side="left"))
             x2 = int(np.searchsorted(lon_full, lon_max, side="right"))
 
-        # 👇 Always use full-resolution logic_box
         logic_box = [[x1, y1], [x2, y2]]
-        print(logic_box)
         data = db.read(time=timestep, field=field, quality=self.quality, logic_box=logic_box)
 
-        # Get actual shape returned
         returned_ny, returned_nx = data.shape
         lat_step = lat_full[1] - lat_full[0]
         lon_step = lon_full[1] - lon_full[0]
