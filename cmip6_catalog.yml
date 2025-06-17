@@ -1,7 +1,7 @@
 sources:
   nex_gddp_cmip6:
     description: Custom IDX-backed NEX-GDDP-CMIP6 source
-    driver: loader.NexGDDPCatalog
+    driver: intake_nexgddp.catalog.NexGDDPCatalog
     parameters:
       model:
         type: str
