@@ -57,9 +57,26 @@ ds.plot()
 ```
 
 ---
+## 🚀 Launch on Binder
 
+Click the button below to launch this repository in an interactive Jupyter environment via [Binder](https://mybinder.org/):
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aashishpanta0/cmip6-intake-idx/binder)
+
+This will launch a temporary cloud environment where you can:
+- Browse the Intake catalog
+- Read and subset NEX-GDDP-CMIP6 climate data
+- Plot data interactively using Jupyter Notebooks
+---
+---
+
+## 🙏 Acknowledgements
+
+This work was developed as part of ongoing research at the NASA JPL and [Scientific Computing and Imaging (SCI) Institute](https://www.sci.utah.edu/) at the University of Utah.
+
+<!-- This work is supported in par NSF OAC award 2138811, -->
+--- 
 ## Developers
 
-- *Aashish Panta*, *Kyo Lee*, *Valerio Pascucci*
-
+    Aashish Panta, Alex Goodman, Kyo Lee, Valerio Pascucci
     University of Utah, NASA JPL
