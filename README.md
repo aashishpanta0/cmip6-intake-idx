@@ -72,7 +72,7 @@ This will launch a temporary cloud environment where you can:
 
 ## 🙏 Acknowledgements
 
-This work was developed as part of ongoing research at the NASA JPL and [Scientific Computing and Imaging (SCI) Institute](https://www.sci.utah.edu/) at the University of Utah.
+This work was developed as part of ongoing research at the NASA JPL, [National Science Data Fabric(NSDF)](https://nationalsciencedatafabric.org/), and [Scientific Computing and Imaging (SCI) Institute](https://www.sci.utah.edu/) at the University of Utah. The library, data and workflow here is managed by [National Science Data Fabric(NSDF)](https://nationalsciencedatafabric.org/). 
 
 <!-- This work is supported in par NSF OAC award 2138811, -->
 --- 

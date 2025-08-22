@@ -7,3 +7,4 @@ datetime
 intake-nexgddp
 requests
 aiohttp
+jinja2
